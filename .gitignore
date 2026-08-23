@@ -1,0 +1,11 @@
+# WRDS-derived data: license forbids redistribution (also too large for git)
+data/*.parquet
+data/results/*.json
+data/results/*.npz
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Paper stays local; README is the public writeup
+writeup/
